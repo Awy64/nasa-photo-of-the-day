@@ -1,13 +1,18 @@
 import React from "react";
 import "./App.css";
+import NavBar from "./components/navBar"
+import Img from "./components/img"
+import Information from './components/information'
 
 function App() {
   return (
     <div className="App">
-      <p>
-        Read through the instructions in the README.md file to build your NASA
-        app! Have fun 🚀!
-      </p>
+      <NavBar text="NavBar"/>
+
+      <Img img="img"/>
+
+      <Information info="info"/>
+
     </div>
   );
 }
